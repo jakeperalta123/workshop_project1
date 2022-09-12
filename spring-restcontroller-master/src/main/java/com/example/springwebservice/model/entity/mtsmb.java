@@ -26,7 +26,7 @@ public class mtsmb {
     private String marketType;
 
     @Column
-    private double curPrize;
+    private double curPrice;
 
     @Column
     private double RefPrice;
@@ -41,5 +41,5 @@ public class mtsmb {
     private String modTime;
 
     @Column
-    private String modUser;
+    private String   modUser;
 }
